@@ -20,6 +20,6 @@ db.on("open", () => {
 
 
 module.exports = {
-  db,
-  Schema
+  db:db,
+  Schema: Schema
 }

@@ -42,10 +42,6 @@ app.use(views(join(__dirname, "views"), {
 
 
 
-
-
-
-
 // 注册路由信息
 app.use(router.routes()).use(router.allowedMethods())
 
